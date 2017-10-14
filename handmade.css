@@ -64,4 +64,7 @@ body {
 	filter: alpha(opacity: 100);
 }
 
-
+#headshot {
+	width: 100%;
+	height: auto;
+}
