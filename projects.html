@@ -63,6 +63,23 @@
 		
 		<!-- Begin Body Content -->
 		<div class="container">
+            <h1>Highlighted Projects</h1>
+            This is a collection of research and personal projects I work on, presented in no particular order. Be sure to check out my <a href="https://github.com/Sir-Batman">GitHub</a> for the latest updates on these projects!
+            <div class="row">
+                <div class="col-sm-12">
+                <h2>ROS and Neato for Home Convenience</h2>
+                <p>
+                In a shameless attempt to be lazy, I am working on making my Neato XV11 drive to my fridge and bring me a beer. To accomplish this, I use a Raspberry Pi 3 connected to the Neato through the USB serial interface. Using open source ROS nodes for the Neato, I am working on getting reliable mapping and localization within my house.
+                </p>
+                <p>
+                Getting ROS on the Raspberry Pi was a short project all by itself.
+                The Raspberry Pi 3, with a 4 cor ARM processor and onboard WiFi and Bluetooth radios is a useful board for controlling simple robots. To use ROS with the Pi, I decided to stick with Kinetic, as it has pre-built .deb packages for ARM architectures. This means that I need a Debian based OS compatible with Kinetic, which was initially harder to find than I thought. Using the Raspberry Pi build of the Ubuntu Mate distribution, I was able to quickly create a ROS enabled mobile computer that can control the basic operation of my Neato.
+                </p>
+                <p>
+                Further work is still needed to see this project to completion, especially in creating a mechanism for autonomously opening and closing the fridge.
+                </p>
+                </div>
+            </div>
 		</div>
 	</body>
 </html>
