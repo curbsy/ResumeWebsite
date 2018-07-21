@@ -86,9 +86,10 @@
                 <div class="col-sm-12">
                 <h2>Multi-Reward Reinforcement Learning</h2>
                 <p>
-				Agents acting in the real world.
+				Agents acting in the real world will likely need to balance many different objectives and tasks at once. However, unlike traditional multi-objective optimization or transfer learning domains, the agents will not always be balancing opposing objectives or have a related task to learn from. An agent, such as a autonomous office robot operating on it's own for a long time, will have wildly different tasks in it's day-to-day operation. Additionally, it may be overburdened with tasks, and need to learn which to prioritize over another. This robot needs to identify <em>what matters when</em> for it to be successful in the long-term operations.
                 </p>
                 <p>
+				We first ascribe an individual reward to each task, and train a simple policy to solve it. Then, to identify which task to focus on, we calculate the alignment between each task's reward and a summary global reward. Agents trained on this single global reward fail to perform any of the tasks, whereas agents selecting each policy are able to act with the larger task in mind. Our paper at the ALA 2018 Workshop at AAMAS details our methods for this (LINK).
                 </p>
                 <p>
                 </p>
